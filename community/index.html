@@ -1,0 +1,315 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<head>
+	<title>Data Node One - The Matrix Online's Official Community Site</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Data Node Zero - The Matrix Online's Unofficial Community Site">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="../images/datanode.png">
+	<link rel="stylesheet" type="text/css" href="../includes/default.css?v=1.0">
+	<script type="text/javascript" src="../includes/community/default.js?v=1.0"></script>
+	<script type="text/javascript" src="../includes/include.js?v=1.0"></script>
+</head>
+
+<body onload="set_menu_status(2,'on'); checkBrowser(); displayManager();">
+<map NAME="logo"><area SHAPE="rect" ALT="" COORDS="22,14,318,100" HREF="../."></map>
+
+<!-- BEGIN Header -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="800">
+    <tr><td valign="top" align="left"><script>document.write('<img src="../images/headers/header_'+ headerArray[randomNumber] +'" width="800" height="127" border="0" alt="The Matrix Online" usemap="#logo">');</script></td></tr>
+</table>
+<!-- END Header -->
+
+<!-- BEGIN Page Body -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="800">
+    <tr>
+    <td valign="top" class="column_left_bkg">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="164">
+            <tr>
+                <td valign="top" colspan="3"><script>document.write('<img src="../images/headers/left_top_'+ headerArray[randomNumber] +'" width="164" height="94" border="0" alt="">');</script></td>
+            </tr>
+            <tr>
+                <td valign="top" colspan="3">
+                <table border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td valign="top" class="menu_left_bkg"><img src="../images/menu_left_top.gif" width="19" height="9" border="0" alt=""></td>
+                        <td valign="top" bgcolor="#000000" width="145" rowspan="2">
+						
+                        <!-- BEGIN Main Menu -->
+						<div id="main_menu">
+						<div id="mh1" class="menu_head" style="background: url('../images/menu_top_off_closed.gif');"><div id="ma1" class="menu_arrow" style="background: url('../images/arrow_off.gif') no-repeat;" onclick="show_menu(1,'off');"></div><a href="../."><img src="../images/menubutton_news.gif" width="118" height="25" border="0" alt="NEWS"></a></div>
+							<script>
+								document.write('<div id="mm1" class="menu_list" style="display: none;">');
+							</script>
+							<ul class="menu_ul">
+								<li><a href="../#current_news">Current News</a></li>
+								<li><a href="../#news_archive">News Archive</a></li>
+								<li><a href="../#development_news">Development News</a></li>
+								<li><a href="http://sentinel.lith.thematrixonline.net/" target="_blank">The Sentinel</a></li>
+                        	</ul>
+							<div class="menu_list_bottom"></div>
+						</div>
+						<div class="menu_spacer"><img src="../images/spacer.gif" width="145" height="4" border="0" alt=""></div>
+						<div id="mh2" class="menu_head" style="background: url('../images/menu_off_closed.gif');"><div id="ma2" class="menu_arrow" style="background: url('../images/arrow_off.gif') no-repeat;" onclick="show_menu(2,'off');"></div><a href="javascript:show_menu(2,'off');"><img src="../images/menubutton_community.gif" width="118" height="25" border="0" alt="COMMUNITY"></a></div>
+						<div id="mm2" class="menu_list" style="display: none;">
+							<ul class="menu_ul">
+								<li><div class="tablink" onclick="openPage(event,'live_events')">Live Events</div></li>
+								<li><div class="tablink" onclick="openPage(event,'developer_journals')">Developer Journals</div></li>
+                                <!-- <li><div class="tablink" onclick="openPage(event,'official_newsletter')">Official Newsletter</div></li> -->
+                                <li><div class="tablink" onclick="openPage(event,'guides_tutorials')">Guides &amp; Tutorials</div></li>
+								<li><div class="tablink" onclick="openPage(event,'press_coverage')">Press Coverage</div></li>
+                        	</ul>
+							<div class="menu_list_bottom"></div>
+						</div>
+						<div class="menu_spacer"><img src="../images/spacer.gif" width="145" height="4" border="0" alt=""></div>
+						<div id="mh3" class="menu_head" style="background: url('../images/menu_off_closed.gif');"><div id="ma3" class="menu_arrow" style="background: url('../images/arrow_off.gif') no-repeat;" onclick="show_menu(3,'off');"></div><a href="http://thematrixonline.warnerbros.com/web/forums/index.jsp" target="_blank"><img src="../images/menubutton_forums.gif" width="118" height="25" border="0" alt="FORUMS"></a></div>
+						<div id="mm3" class="menu_list" style="display: none;">
+							<!-- include menu_3.html -->
+								<div include-html="/includes/menu/menu_3.html"></div><script>includeHTML();</script>
+							<!-- END include menu_3.html -->
+							<div class="menu_list_bottom"></div>
+						</div>
+						
+						<div class="menu_spacer"><img src="../images/spacer.gif" width="145" height="4" border="0" alt=""></div>
+						<div id="mh4" class="menu_head" style="background: url('../images/menu_off_closed.gif');"><div id="ma4" class="menu_arrow" style="background: url('../images/arrow_off.gif') no-repeat;" onclick="show_menu(4,'off');"></div><a href="javascript:show_menu(4,'off');"><img src="../images/menubutton_gameinfo.gif" width="118" height="25" border="0" alt="GAME INFO"></a></div>
+						<div id="mm4" class="menu_list" style="display: none;">
+							<!-- include menu_4.html -->
+								<div include-html="/includes/menu/menu_4.html"></div><script>includeHTML();</script>
+							<!-- END include menu_4.html -->
+							<div class="menu_list_bottom"></div>
+						</div>
+						
+						<div class="menu_spacer"><img src="../images/spacer.gif" width="145" height="4" border="0" alt=""></div>
+						<div id="mh5" class="menu_head" style="background: url('../images/menu_off_closed.gif');"><div id="ma5" class="menu_arrow" style="background: url('../images/arrow_off.gif') no-repeat;" onclick="show_menu(5,'off');"></div><a href="javascript:show_menu(5,'off');"><img src="../images/menubutton_downloads.gif" width="118" height="25" border="0" alt="DOWNLOADS"></a></div>
+						<div id="mm5" class="menu_list" style="display: none;">
+							<!-- include menu_5.html -->
+								<div include-html="/includes/menu/menu_5.html"></div><script>includeHTML();</script>
+							<!-- END include menu_5.html -->
+							<div class="menu_list_bottom"></div>
+						</div>
+						
+						<div class="menu_spacer"><img src="../images/spacer.gif" width="145" height="4" border="0" alt=""></div>
+						<div id="mh6" class="menu_head" style="background: url('../images/menu_off_closed.gif');"><div id="ma6" class="menu_arrow" style="background: url('../images/arrow_off.gif') no-repeat;" onclick="show_menu(6,'off');"></div><a href="javascript:show_menu(6,'off');"><img src="../images/menubutton_links.gif" width="118" height="25" border="0" alt="LINKS"></a></div>
+						<div id="mm6" class="menu_list" style="display: none;">
+							<!-- include menu_6.html -->
+								<div include-html="/includes/menu/menu_6.html"></div><script>includeHTML();</script>
+							<!-- END include menu_6.html -->								
+							<div class="menu_list_bottom"></div>
+						</div>								
+						<div class="menu_spacer"><img src="../images/spacer.gif" width="145" height="4" border="0" alt=""></div>
+						<div id="mh7" class="menu_head" style="background: url('../images/menu_off_closed.gif');"><div id="ma7" class="menu_arrow" style="background: url('../images/arrow_off.gif') no-repeat;" onclick="show_menu(7,'off');"></div><a href="javascript:show_menu(7,'off');"><img src="../images/menubutton_support.gif" width="118" height="25" border="0" alt="SUPPORT"></a></div>
+						<div id="mm7" class="menu_list" style="display: none;">
+							<!-- include menu_7.html -->
+								<div include-html="/includes/menu/menu_7.html"></div><script>includeHTML();</script> 
+							<!-- END include menu_7.html -->
+							<div class="menu_list_bottom"></div>
+						</div>
+						<div class="menu_bottom"><img src="../images/spacer.gif" width="145" height="8" border="0" alt=""></div>
+						</div>
+                        <!-- END Main Menu -->
+						
+						<!-- BEGIN Promo -->
+						<script type="text/javascript" src="../includes/_left_column_middle.js"></script>
+						<div class="left_column">			
+							<!-- promo mxo_community_mxoemu start -->
+								<span><div class="promo_top">Experience it<br>once more!</div></span>
+								<span><div class="promo_mid"></div></span>
+								<span><div class="promo_bottom">See <i>The Matrix Online</i><br>being rebuilt and restored by one man!<br><br>Jack in!</div>
+								<ul><li><a href="http://www.mxoemu.info" target="_blank">mxoemu.info</a></li></ul></span>
+							<!-- promo mxo_community_mxoemu end -->			
+							<div style="padding: 5px;" align="right"></div>
+						</div>
+						<script type="text/javascript" src="../includes/_left_column_bottom.js"></script>
+						<!-- END Promo -->
+
+						<!-- BEGIN Content Page -->	
+					
+						<!-- BEGIN live_events -->
+						<div id="live_events" class="page">
+							<table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+							<td valign="top" bgcolor="#000000">
+							
+							<!-- BEGIN Main Content -->
+							<img src="../images/banners/ban_liveevents.jpg" width="623" height="119" alt="" border="0">
+							<div style="padding: 7px;">
+								<!-- start loop mxo_community/articles/community/news/ -->
+								<!-- item #1 -->
+									<li class="newsLi"><a href="../." onclick="return false;">Nothing here yet</a><script>
+										var dateString = '2021-08-17 00:00:00.0';
+										if (dateString != '') {
+											var dateArray = dateString.split('-');
+											var month = dateArray[1];
+											var day = dateArray[2].substring(0,2);
+											var year = dateArray[0].substring(2,4)
+											document.write('<span class="green">: ' + month + '-' + day + '-' + year + '</span>');
+										}
+									</script></li>
+								<!-- item #2 -->
+								<!-- item #3 -->
+								<!-- item #4 -->
+								<!-- item #5 -->
+								<!-- item #6 -->
+								<!-- item #7 -->
+								<!-- item #8 -->
+								<!-- item #9 -->
+								<!-- item #10 -->
+
+								<!-- end loop mxo_community/articles/community/news/ -->
+							</div>
+
+							<br><br>
+							<!-- start loop mxo_community/articles/community/news/ --><!-- item #1 -->
+
+							<a name="NEWS01"></a>
+							<h2 class="grey_headline_big">Nothing here yet</h2>
+							<div style="padding: 10px;">
+							Nope.
+							<table cellpadding="0" cellspacing="0" border="0" width="100%" style="padding-top: 10px;">
+								<tr>
+									<td align="left">Posted by Calaeus<script>
+										var dateString = '2021-08-17 00:00:00.0';
+										if (dateString != '') {
+											var dateArray = dateString.split('-');
+											var month = dateArray[1];
+											var day = dateArray[2].substring(0,2);
+											var year = dateArray[0].substring(2,4)
+											document.write(', ' + month + '-' + day + '-' + year);
+										}
+									</script></td>
+									<td align="right"><a href="../." onclick="return false;">Full Story...</a></td>
+								</tr>
+							</table></div>
+							<br><br>
+							<!-- item #2 -->
+							<!-- item #3 -->
+							<!-- item #4 -->
+							<!-- item #5 -->
+							<!-- item #6 -->
+							<!-- item #7 -->
+							<!-- item #8 -->
+							<!-- item #9 -->
+							<!-- item #10 -->
+
+							<!-- end loop mxo_community/articles/community/news/ -->
+
+							<br><br>
+							<!-- END Main Content -->
+							</td>
+							</tr>
+							</table>
+						</div>
+						<!-- END live_events -->
+						<!-- BEGIN developers_journals -->
+						<div id="developer_journals" class="page">
+							<!-- BEGIN developer_journals.html -->
+								<div include-html="developer_journals.html"></div><script>includeHTML();</script> 
+							<!-- END developer_journals.html -->	
+						</div>
+						<!-- END developers_journals -->
+						
+						<!-- BEGIN guides_tutorials -->
+						<div id="guides_tutorials" class="page">
+							<!-- BEGIN guides_tutorials.html -->
+								<div include-html="guides_tutorials.html"></div><script>includeHTML();</script> 
+							<!-- END guides_tutorials.html -->		
+						</div>
+						<!-- END guides_tutorials -->
+						
+						<!-- END Content Page -->
+						
+						<script>
+							function displayManager() {
+
+								// debug output
+								console.log('DEBUG: CURRENT HASH LOCATION IS: ' + window.location.hash);
+
+								// get the current hash location from the browser URI...
+								var hash_location = window.location.hash;
+
+								if (hash_location == '') {
+									// do nothing if no hash is provided...
+									return ''
+								} else {
+									openPage(event, hash_location.substring(1));
+								}
+
+							}
+
+							function openPage(evt, pageName) {
+
+								// debugging output
+								console.log('switching page to ' + pageName + '...');
+
+								// update window URI hash location to the current page name
+								scr = document.body.scrollTop;
+								window.location.hash = pageName;
+								document.body.scrollTop = scr;
+								
+								// init vars
+								var i, page_node, tablinks;
+								page_node = document.getElementsByClassName("page");
+								tablinks = document.getElementsByClassName("tablink");
+
+								// init all page nodes
+								for (i = 0; i < page_node.length; i++) {
+
+									// hide all expanded content
+									page_node[i].style.display = "none";
+
+								}
+
+								// open the specified page node
+								document.getElementById(pageName).style.display = "block";
+								window.scrollTo(0, 0);
+							}	
+
+							window.onbeforeunload = function () {
+							  window.scrollTo(0, 0);
+							}
+						</script>				
+			
+						</td>
+						<td valign="top" bgcolor="#000000"><img src="../images/spacer.gif" width="6" height="1" border="0" alt=""></td>
+						<td valign="top" bgcolor="#999999"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	</td>
+</tr>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="800">
+    <tr><td class="bottom" valign="top" bgcolor="#999999"><img src="../images/spacer.gif" width="800" height="1" border="0" alt=""></td></tr>
+</table></table>
+<!-- END Page Body -->
+
+<!-- BEGIN footer -->
+	<div id="footer">
+		<div class="footer_logospace">
+			<a href="http://www.mxoemu.info" target="_blank"><div class="footer_logo"></div></a>
+		</div>
+		<div class="footer_content">
+				This site, its contents, and any other related functionality, are in no way related to Warner Brothers, Monolith, or Sega Online Entertainment.<br>
+				Original website design by TM &amp; &copy; Warner Bros. Entertainment Inc. (s) 2005 for THE MATRIX ONLINE.
+		</div>
+	</div>
+<!-- END footer -->
+
+<!-- Preloading some Images -->
+	<img src="images/menu_off_closed.gif" alt="" class="hidden_preload">
+	<img src="images/menu_off_open.gif" alt="" class="hidden_preload">
+	<img src="images/menu_on_closed.gif" alt="" class="hidden_preload">
+	<img src="images/menu_on_open.gif" alt="" class="hidden_preload">
+	<img src="images/menu_top_off_closed.gif" alt="" class="hidden_preload">
+	<img src="images/menu_top_off_open.gif" alt="" class="hidden_preload">
+	<img src="images/menu_top_on_closed.gif" alt="" class="hidden_preload">
+	<img src="images/menu_top_on_open.gif" alt="" class="hidden_preload">
+	<img src="images/arrow_on.gif" alt="" class="hidden_preload">
+	<img src="images/arrow_off.gif" alt="" class="hidden_preload">
+	<img src="images/menu_bkg.gif" alt="" class="hidden_preload">
+	<img src="images/events/Abduction.jpg" alt="" class="hidden_preload">
+	<img src="images/episode_1-3.jpg" alt="" class="hidden_preload">
+	<img src="images/liveevents_module_july19.jpg" alt="" class="hidden_preload">
+</body>
